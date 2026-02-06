@@ -17,7 +17,7 @@ int maxRowSum(int mat[][3],int row,int col){
 }
 
 int main(){
-    int mat[3][3]={{1,2},{3,4},{5,6}};
+    int mat[3][3]={{1,2,4},{3,5,4},{5,9,6}};
     int row = 3;
     int col = 3;
     cout<<"The max Sum of row is : "<<maxRowSum(mat,row,col);
